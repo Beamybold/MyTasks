@@ -1,0 +1,5 @@
+seatNo = set(range (1, 51))
+print("Kidly book a seat:")
+bookedseat = int(input("book a seat: "))
+seatNo.remove(bookedseat)
+print(seatNo)

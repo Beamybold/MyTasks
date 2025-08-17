@@ -1,0 +1,7 @@
+bestFriend1= input("Enter your best friend 1: ")
+bestFriend2= input("Enter your best friend 2: ")
+bestFriend3= input("Enter your best friend 3: ")
+bestFriend4= input("Enter your best friend 4: ")
+bestFriend5= input("Enter your best friend 5: ")
+friends = (bestFriend1, bestFriend2, bestFriend3, bestFriend4, bestFriend5)
+print(friends[::-1])
