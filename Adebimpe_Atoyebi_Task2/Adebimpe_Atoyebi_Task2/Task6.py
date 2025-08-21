@@ -1,4 +1,4 @@
-customerName = input("Enter your name: ")
+customerName = input("Enter your name: "). title()
 unitConsumedInKwh = int(input("Enter unit consumed: "))
 costPerUnit = float(input("Enter cost per unit: "))
 Total = unitConsumedInKwh * costPerUnit
